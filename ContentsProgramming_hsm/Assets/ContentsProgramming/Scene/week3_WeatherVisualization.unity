@@ -246,7 +246,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &532826265
+--- !u!1001 &445637922
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -254,128 +254,77 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Tuesday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
+    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669027832305216890, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
+      propertyPath: m_Name
+      value: Thermometer_Base
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52e635c59df544fe1968605f20430117, type: 3}
---- !u!1001 &800049709
-PrefabInstance:
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4527211194317919706, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 445637924}
+  m_SourcePrefab: {fileID: 100100000, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
+--- !u!1 &445637923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4527211194317919706, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
+  m_PrefabInstance: {fileID: 445637922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &445637924
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885482678349575110, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.889
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Saturday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445637923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1b7c27968ce451daf3d52843a29b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TemperatureHeight
+  temperature: 20
+  maxHeight: 5
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +429,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 17
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -506,348 +455,64 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07876883, y: 0.000651391, z: 0.00005146925, w: 0.9968927}
-  m_LocalPosition: {x: 2.21, y: 5.02, z: -23.73}
+  m_LocalRotation: {x: -0.0005420899, y: 0.99685955, z: -0.07876699, w: -0.008163351}
+  m_LocalPosition: {x: -1.77, y: 1.1, z: 13.98}
+  m_LocalScale: {x: 0.97348, y: 0.97348, z: 0.97348}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 9.036, y: 180.939, z: 0.012}
+--- !u!1 &992132211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992132213}
+  - component: {fileID: 992132214}
+  m_Layer: 0
+  m_Name: ScriptRunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &992132213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992132211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 9.036, y: 0.076, z: 0.012}
---- !u!1001 &1109098738
-PrefabInstance:
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992132214
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885482678349575110, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Friday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5a745dfc8cfbd482e903ed2f10382f63, type: 3}
---- !u!1001 &1111706752
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885482678349575110, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Thursday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d101af1b225d24134b853ba5d8ada8d1, type: 3}
---- !u!1001 &1315773915
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.581
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Wednesday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52e635c59df544fe1968605f20430117, type: 3}
---- !u!1001 &1711090680
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 885482678349575110, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.495
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978765046885323914, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Sunday
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947287575052920879, guid: 52e635c59df544fe1968605f20430117, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52e635c59df544fe1968605f20430117, type: 3}
---- !u!1001 &7057796436495227339
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4503243652454173238, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503243652454173238, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628452072724779487, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669027832305216890, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
-      propertyPath: m_Name
-      value: Thermometer_Monday
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 805c51ad7d1b54a05a060cc234029140, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992132211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1b7c27968ce451daf3d52843a29b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TemperatureHeight
+  temperature: 20
+  maxHeight: 1.6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 961739753}
   - {fileID: 203844589}
-  - {fileID: 7057796436495227339}
-  - {fileID: 532826265}
-  - {fileID: 1315773915}
-  - {fileID: 1111706752}
-  - {fileID: 1109098738}
-  - {fileID: 800049709}
-  - {fileID: 1711090680}
+  - {fileID: 992132213}
+  - {fileID: 445637922}
