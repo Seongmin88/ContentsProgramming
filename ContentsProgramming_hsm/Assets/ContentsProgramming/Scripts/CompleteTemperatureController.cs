@@ -5,9 +5,7 @@ public class CompleteTemperatureController : MonoBehaviour
     [Header("온도 설정")]
     public float temperature = 25.0f;     // 온도
     public float maxHeight = 3.0f;        // 최대 높이
-    //추가: 원래 스케일 저장용 변수
-    private Vector3 baseScale;
-
+    
     [Header("디버깅")]
     public bool showDebugInfo = true;     // 디버그 정보 표시
     
@@ -18,9 +16,6 @@ public class CompleteTemperatureController : MonoBehaviour
     {
         // Renderer 컴포넌트 가져오기
         objectRenderer = GetComponent<Renderer>();
-
-        // 추가: 시작할 때 원래 X,Z 스케일 기억
-        baseScale = transform.localScale;  
         
         if (objectRenderer == null)
         {
@@ -34,10 +29,9 @@ public class CompleteTemperatureController : MonoBehaviour
     {
         // 1. 높이 제어 (온도에 비례)
         // 온도를 높이로 변환 (0~50도 범위)
-        float height = Mathf.Clamp(temperature / 50.0f * maxHeight, 0.1f, maxHeight);
-
-        // 수정: X,Z는 그대로 두고 Y만 변경
-        transform.localScale = new Vector3(baseScale.x, height, baseScale.z);
+        float height = temperature / 50.0f * maxHeight;
+        if (height < 0.1f) height = 0.1f;  // 최소 높이 보장
+        transform.localScale = new Vector3(1, height, 1);
         
         // 2. 색상 제어 (온도 구간별)
         if (objectRenderer != null)
